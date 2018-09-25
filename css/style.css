@@ -1,0 +1,402 @@
+.body{
+	margin: 0;
+	padding: 0;
+}
+
+.container-fluid{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+hr{
+	border-top: 1px solid black;
+}
+
+.navbar{
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+	width: 100%;
+	opacity: 50;
+	z-index: 10;
+}
+
+.navbar-brand{
+	padding: 10px;
+	position: relative;
+}
+
+.navbar-brand img{
+	height: 60px;
+	width: auto;
+}
+
+.navbar-collapse li{
+	padding: 8px;
+}
+
+.li nav-link:hover{
+	backgorund-color: none;
+	color: white;
+}
+
+.main{
+	position: relative;
+	height: 900px;
+	margin: 0;
+	padding: 0;
+	margin-top: 100px;
+	background-image: url("https://warrenstreetwealth.com/wp-content/uploads/2014/10/nature-wallpapers-ocean-sunset-horizon-wallpaper-31383.jpg");
+	background-position: center center;
+	background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.main h1{
+	font-family: "Courier New", Courier, monospace;
+	position: relative;
+  font-weight: 400;
+  font-size: 2.8em;
+	color: black;
+}
+
+.nameTitle{
+  text-align: center;
+  position: absolute;
+  top: 210px;
+  width: 100%;
+}
+
+.jobTitle{
+	text-align: center;
+  position: absolute;
+  top: 280px;
+  width: 100%;
+}
+
+.social{
+	text-align: center;
+  position: absolute;
+  top: 350px;
+  width: 100%;
+}
+
+.fab{
+  padding: 30px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+	color: black;
+	z-index: 1;
+}
+
+.fab:hover{
+	opacity: 0.6;
+}
+
+.aboutButton{
+	text-align: center;
+  position: absolute;
+  top: 480px;
+  width: 100%;
+}
+
+.aboutButton a{
+	font-size: 18px;
+}
+
+.aboutButton a:hover{
+	text-decoration: none;
+	color: #690C0D;
+}
+
+#main_about{
+	padding: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.sectionDivide{
+	padding: 0;
+	margin: 0;
+}
+
+.about{
+	position: relative;
+	height: 100%;
+	background-color: #f8f9fa;
+	z-index: -1;
+}
+
+.headshot{
+	margin-top: 60px;
+}
+
+.headshot img{
+	display: block;
+	margin: auto;
+	vertical-align: middle;
+	height: 310px;
+	width: 310px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+.aboutHeader{
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.aboutHeader h1{
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top: 50px;
+	font-size: 45px;
+}
+
+#aboutDivide{
+	padding: 5px;
+	width: 75%;
+}
+
+.aboutDesc{
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+#aboutBio{
+	text-align: center;
+}
+
+.all_passions{
+	margin-top: 80px;
+	text-align: center;
+}
+
+.passion{
+	padding-bottom: 20px;
+}
+
+.passion h3{
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+.passionDivide{
+	width: 70%;
+}
+
+.passionBio{
+	display: block;
+	margin: auto;
+	width: 70%;
+}
+
+.skills{
+	position: relative;
+	z-index: -1;
+	background-color: #f8f9fa;
+	height: 100%;
+}
+
+.skillHeader{
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.skillHeader h1{
+	margin-top: 30px;
+	font-size: 45px;
+	padding-bottom: 20px;
+}
+
+.skillBox{
+	padding-bottom: 20px;
+}
+
+#skillIcon{
+	color: black;
+	text-align: center;
+	font-size: 90px;
+	display: block;
+	margin: 0;
+}
+
+.skillText{
+	text-align: center;
+	font-size: 25px;
+	padding: 10px
+}
+
+.projects{
+	position: relative;
+	background-color: #f8f9fa;
+	height: 875px;
+}
+
+.projectHeader{
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.projectHeader h1{
+	margin-top: 30px;
+	font-size: 45px;
+	padding-bottom: 20px;
+}
+
+.project_card{
+	position: relative;
+	display: block;
+	margin: auto;
+	top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	width: 400px;
+  height: 650px;
+	margin: 10px;
+	background-color: #f1f1f1;
+	margin-bottom: 40px;
+}
+
+.project_card img{
+	vertical-align: middle;
+	display: block;
+	margin: auto;
+	height: auto;
+	width: 400px;
+	margin-bottom: 20px;
+}
+
+.project_card img:hover{
+	opacity: 0.7;
+}
+
+.card_body{
+	text-align: center;
+}
+
+.site{
+	border: 1px solid #323232;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.site:hover{
+	text-decoration: none;
+	color: #690C0D;
+}
+
+.contact{
+	position: relative;
+	background-color: #f8f9fa;
+	height: 575px;
+}
+
+.contactHeader{
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.contactHeader h1{
+	margin-top: 35px;
+	font-size: 45px;
+	padding-bottom: 10px;
+}
+
+#sendMessage{
+	outline: none;
+	border: 1px solid #323232;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #f8f9fa;
+  color: black;
+  margin-top: 30px;
+}
+
+#sendMessage:hover{
+	color: #690C0D;
+}
+
+.footer{
+	height: 200px;
+	background-color: #f8f9fa;
+}
+
+.email {
+	width: 300px;
+  float: left;
+  padding: 30px 0px 30px 5px;
+	font-size: 12px;
+}
+
+.footer_social{
+	text-align: right;
+  position: absolute;
+	right: 40px;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px){
+	.navtitle{
+		display: none;
+	}
+
+	.navbar-toggler{
+		position: absolute;
+		top: 25px;
+		right: 30px;
+	}
+
+	.navbar-right{
+		text-align: center;
+	}
+
+	.navbar-right li{
+		padding: 0;
+		float: right;
+	}
+
+	.main{
+		height: 700px;
+	}
+
+	.main h1{
+		font-size: 32px;
+	}
+
+	.headshot{
+		margin-top: 20px;
+	}
+
+	.about{
+		height: 100%;
+	}
+
+	.aboutHeader h1{
+		margin-top: 25px;
+	}
+
+	.all_passions{
+		margin-top: 50px;
+	}
+
+	.projects{
+		height: 100%;
+		padding-bottom: 30px;
+	}
+}
